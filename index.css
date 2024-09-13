@@ -1,0 +1,194 @@
+.header {
+    background-image: url('https://img.freepik.com/free-vector/wave-background-abstract-gradient-design_483537-3688.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+
+  
+.icon-container {
+        display: flex;
+        gap: 8px; 
+        justify-content: center;
+        list-style: none; 
+        padding: 0;
+ }
+.icon-container li {
+        display: inline-block;
+}
+.icon-container img {
+        width: 45px; 
+        height: 50x;
+}
+
+
+.card {
+        transition: transform 0.2s ease;
+        max-width: 30rem;
+        max-height: 30rem;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto; 
+}
+  
+.card:hover {
+        transform: scale(1.05);
+        z-index: 10;
+}
+
+ body {
+        background-color: #000; 
+        color: #fff; 
+}
+
+.bg-dark {
+        background-color: #000 !important; 
+}
+
+.text-light {
+        color: #fff !important; 
+ }
+
+
+ .carousel-inner {
+        text-align: center; 
+    }
+    
+    .carousel-item img {
+        display: flex ;
+        margin: 0 auto; 
+        width: 80%; 
+        max-height: 400px; 
+        max-width: 400px;
+        min-height: 400px;
+        min-width: 400px;
+        object-fit: cover; 
+       
+    }
+
+  
+    .introduction h1 {
+        font-size: 5rem; 
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    }
+    .introduction p {
+        font-size: 2rem;
+        font-family: 'Georgia', serif; 
+        
+    }
+
+    #about h2 {
+        font-size: 3rem; 
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    }
+    #about p {
+        font-size: 2rem;
+        font-family: 'Times New Roman', serif; 
+    }
+
+    #hobbies h2{
+        font-size: 5rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    #projects h1{
+        font-size: 5rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    #tools h2{
+        font-size: 5rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    #contact h2{
+        font-size: 5rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+  
+
+    }
+
+   #carouselExampleCaptions{
+        font-size: 1.8rem;
+       
+        .carousel-caption {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 80%;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.5); 
+            color: white;
+            border-radius: 10px;
+        }
+    
+        .carousel-caption h5 {
+            font-size: 1.5rem;
+        }
+    
+        .carousel-caption p {
+            font-size: 1rem;
+        }
+    
+        @media (max-width: 768px) {
+            .carousel-caption h5 {
+                font-size: 1.2rem;
+            }
+    
+            .carousel-caption p {
+                font-size: 0.9rem;
+            }
+        }
+    
+        @media (max-width: 576px) {
+            .carousel-caption h5 {
+                font-size: 1rem;
+            }
+    
+            .carousel-caption p {
+                font-size: 0.8rem;
+            }
+        }
+   }
+
+   .profile {
+        max-width: 200px;
+        height: auto;
+    }
+    .card-img-top {
+        max-height: 300px;
+        object-fit: cover;
+    }
+    .icon-container {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        gap: 10px;
+    }
+    .icon-container img {
+        width: 24px;
+        height: 24px;
+    }
+    .dropdown-menu {
+        max-width: 200px;
+    }
+
+   
+    .carousel-item img {
+        border-radius: 15px;
+    }
+  
+   
+.carousel-item img {
+    border-radius: 15px;
+    object-fit: cover; 
+    width: 100%; 
+    height: auto;
+}
+
+    
+   
